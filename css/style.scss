@@ -3,4 +3,46 @@
 *{
     padding: 0px;
     margin:  0px;
-}
+};
+
+#estrutura{
+    display: grid;
+    grid-template-columns: 160px 2fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "sidnav content ads"
+    "footer footer footer"
+    ;
+};
+
+#header{
+    grid-area: header;
+    background-color: purple;
+    height: 70px;
+    
+
+};
+
+
+#sidnav{
+    grid-area: sidnav;
+    background-color: #836FFF;
+
+};
+
+#content{
+    grid-area: content;
+    background-color: #E6E6FA;
+    height: calc(100vh - 110px);
+};
+
+#ads{
+    grid-area: ads;
+    background-color: #FF6347;    ;
+};
+
+#footer{
+    grid-area: footer;
+    background-color: purple;
+    height: 40px;
+};
