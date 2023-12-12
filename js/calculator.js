@@ -7,7 +7,7 @@ export function main(){
 
 // function that calculates the result of wins vs. losses 
 
-const winsResult = WinsCalculation(150, 100);
+const winsResult = WinsCalculation(150, 11git 0);
 
 function WinsCalculation(wins, losses){
     let calculation = (wins - losses);
@@ -28,25 +28,25 @@ function heroLevel(){
     var xp = ""
 
     if(x<=10){
-       var xp = "Ferro";
+       xp = "Ferro";
 
     }else if(x>=11 & x<=20){
-       var xp = "Bronze";
+       xp = "Bronze";
 
     }else if(x>=21 & x<=50){
-       var xp = "Prata";
+       xp = "Prata";
 
     }else if(x>=51 & x<=80){
-        var xp = "Ouro";
+        xp = "Ouro";
 
     }else if(x>=81 & x<=90){
-       var xp = "Diamante";
+        xp = "Diamante";
 
     }else if(x>=91 & x<=100){
-        var xp = "Lendário";
+        xp = "Lendário";
 
     }else if (x>=101){
-        var xp = "Imortal";
+        xp = "Imortal";
     };
 
     let heroXp = xp;
